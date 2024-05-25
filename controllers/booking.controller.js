@@ -1,4 +1,4 @@
-const Room = require("../models/Room");
+const Room = require("../models/room");
 const Booking = require("../models/booking");
 const User = require("../models/user");
 const { format } = require("date-fns");
