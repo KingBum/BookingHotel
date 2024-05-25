@@ -39,7 +39,7 @@ function Login(props) {
     e.preventDefault();
     try {
       // alert(password, username);
-      const response = await fetch("http://localhost:5000/api/auth/login", {
+      const response = await fetch("https://bookinghotel-dh55.onrender.com/api/auth/login", {
         method: "POST",
         body: JSON.stringify(data), // Đảm bảo truyền dữ liệu email và password trong một đối tượng JSON
         headers: { "Content-Type": "application/json" },

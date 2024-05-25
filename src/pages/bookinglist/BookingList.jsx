@@ -38,7 +38,7 @@ function BookingList(props) {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:5000/api/booking/user/${userData._id}`
+          `https://bookinghotel-dh55.onrender.com/api/booking/user/${userData._id}`
         );
         setDataLeave(response.data);
       } catch (error) {
